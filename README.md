@@ -1,5 +1,5 @@
 # Break Diving Groupify
-This is a custom forked version of Groupify created by Steven Kolstad @stevenkolstad (from Upwork).  The old version is deprecated and doesn't work on Rails 8.  This forked version changed the group.rb file, line 42 to use new rails method called 'reset'.  Without this, it's impossible to turn a dive of interest into a new dive in pursuit.
+This is a custom forked version of Groupify created by Steven Kolstad @stevenkolstad (from Upwork).  The old version is deprecated and doesn't work on Rails 8.  This forked version changed the group.rb file, line 42 to use new rails method called 'reset'.  Without this, it's impossible to turn a dive of interest into a new dive in pursuit.  The gemfile was updated to reference this new forked version.
 
 # Groupify
 [![Build Status](https://travis-ci.org/dwbutler/groupify.svg?branch=master)](https://travis-ci.org/dwbutler/groupify) [![Coverage Status](https://coveralls.io/repos/dwbutler/groupify/badge.svg?branch=master&service=github)](https://coveralls.io/github/dwbutler/groupify?branch=master) [![Code Climate](https://codeclimate.com/github/dwbutler/groupify/badges/gpa.svg)](https://codeclimate.com/github/dwbutler/groupify) [![Inline docs](http://inch-ci.org/github/dwbutler/groupify.svg?branch=master)](http://inch-ci.org/github/dwbutler/groupify)
